@@ -1,0 +1,1147 @@
+[
+  {
+    "scheme_id": "faoapstbc",
+    "name": "Financial Assistance to Old Age Pensioner Suffering From TB/Cancer",
+    "level": "State",
+    "category": [
+      "Health & Wellness",
+      "Social welfare & Empowerment"
+    ],
+    "state": "any",
+    "benefit_amount": 6000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹500 per month in addition to the old age pension.",
+    "exclusive_group": "pension",
+    "eligibility_rules": [
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "ge",
+        "value": 60,
+        "explainer": "Member must be 60 years or older."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "old_age_pensioner",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must already be receiving an old-age / destitute pension."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "tb_cancer",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must suffer from TB or Cancer (medical certificate)."
+      }
+    ],
+    "description": "The scheme “Financial Assistance to Old Age Pensioner Suffering From TB/ Cancer” by the Department of Women & Child Development, Government of Puducherry, was introduced to extend a helping hand by way of a monthly financial assistance of ₹ 500/- to Old Age/Destitute Pensioners who are suffering from TB/Cancer to meet out the medical expenses.",
+    "benefits": "₹500/- per month in addition to the old age pension amount.",
+    "application": "Step 1: The interested applicant should visit (during office hours) the Office/ Sub-Office of the Department of Women and Child Development, and request the hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. OR The interested applicant should take print of the prescribed format of the application form. Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required). Step 3: Submit the duly filled and signed application form along with the documents to the Deputy Director (Women Development) or the Child Development Project Officer (depending on the location), at least 30 days before the proposed marriage date. Step 4: Request a receipt or acknowledgment fro",
+    "documents": [
+      "Aadhaar Card",
+      "Residence Certificate from the Revenue Department",
+      "Income Certificate from the Revenue Department",
+      "Passport-sized Photograph",
+      "Declaration/undertaking (if Any)",
+      "Medical Certificate From the Medical Authority of the Government Hospital or Institution",
+      "Photocopy of the Old Age Pension Book",
+      "﻿ In the absence of an Aadhaar Card; the applicant is required to provide his/her Aadhaar Enrolment ID along with ANY ONE of the following documents - 1",
+      "Bank or Post Office Passbook with Photo",
+      "Permanent Account Number (PAN) Card",
+      "Passport",
+      "Ration Card"
+    ],
+    "tags": [
+      "Cancer",
+      "Pension",
+      "TB",
+      "Senior Citizen",
+      "Financial Asisstance"
+    ]
+  },
+  {
+    "scheme_id": "ioap",
+    "name": "INDIRAMMA Old Age Pension (Rural)",
+    "level": "State",
+    "category": [
+      "Social welfare & Empowerment"
+    ],
+    "state": "Andhra Pradesh",
+    "benefit_amount": 12000,
+    "benefit_period": "yearly",
+    "benefit_text": "Monthly pension (scale notified by the state); disbursed 1st of every month.",
+    "exclusive_group": "pension",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "bpl",
+        "op": "eq",
+        "value": true,
+        "explainer": "Family must belong to a Below Poverty Line (BPL) list."
+      },
+      {
+        "scope": "family",
+        "field": "area",
+        "op": "eq",
+        "value": "rural",
+        "explainer": "Applicant must live in a rural area."
+      },
+      {
+        "scope": "family",
+        "field": "destitute",
+        "op": "eq",
+        "value": true,
+        "explainer": "Applicant must be destitute with no means of subsistence."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "ge",
+        "value": 65,
+        "explainer": "Child member must be 65 years or older."
+      }
+    ],
+    "description": "Launched in 2006-07, the scheme \"INDIRAMMA Old Age Pension (Rural)\" by the Department of Rural Development, Government of Andhra Pradesh, aims to disburse monthly pensions to old age citizens, both male and female, who are 65 years of age or above and are destitute (with little or no means of subsistence and no family or relative to depend upon). To be eligible, they should be from a BPL family, be a resident of the district, and not be covered under any other Pension Scheme. The eligible citizens will be identified by their respective Gram Sabhas. The Panchayat Secretary disburses the pension to the eligible citizens on the first date of every month.",
+    "benefits": "Pension Amount: The scale of benefit under the pension will be notified by the Government of Andhra Pradesh. Mode of Disbursement: The Panchayat Secretary disburses the pension to the eligible citizens, in the presence of Sarpanch, Gram Panchayat Members and the Office Bearers of Village Organization. Time of Disbursement: The pension is disbursed on the first date of every month.",
+    "application": "The eligible citizens will be identified by their respective Gram Panchayat during the Gram Sabhas. The Panchayat Secretary maintains a register of eligible persons and sends the Gram Sabha resolution recommending eligible persons to the Mandal Parishad Development Officer (MPDO).",
+    "documents": [
+      "Proof of Age Domicile Certificate Below Poverty Line (BPL) Certificate"
+    ],
+    "tags": [
+      "Pension",
+      "Senior Citizen",
+      "Social Welfare",
+      "Financial Assistance",
+      "Old Age"
+    ]
+  },
+  {
+    "scheme_id": "ignoapsjak",
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "level": "Central",
+    "category": [
+      "Social welfare & Empowerment"
+    ],
+    "state": "any",
+    "benefit_amount": 12000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹1,000 per month (BPL old-age pension).",
+    "exclusive_group": "pension",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "bpl",
+        "op": "eq",
+        "value": true,
+        "explainer": "Family must be a Below Poverty Line (BPL) family."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "ge",
+        "value": 60,
+        "explainer": "Applicant must be 60 years or older."
+      }
+    ],
+    "description": "Launched on 15th August 1995, the \"Indira Gandhi National Old Age Pension Scheme\" is a pension scheme by the Social Welfare Department, Union Territory of Jammu and Kashmir. The scheme provides financial assistance to Below Poverty Line (BPL) households. Individuals aged 60 to 79 years are eligible to receive a monthly pension of ₹1,000/- as part of the old-age pension support.",
+    "benefits": "Amount of Pension: ₹1000/- per month. Mode of Disbursement: The amount is disbursed directly to the beneficiary through bank transfers or money orders.",
+    "application": "Step 1: The applicant should visit the Tehsil Social Welfare Officer (TSWO) in the concerned area. during office hours and request a hard copy of the prescribed application form from the concerned authority. Step 2: Fill in all the mandatory fields in the application form. Paste a passport-sized photograph (signed across, if required), and attach copies of all necessary documents (self-attested, if required). Step 3: Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the Tehsil Social Welfare Officer (TSWO). Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). ﻿ Post Application Processes Step 1: The TSWO verifies t",
+    "documents": [
+      "Aadhaar Card Passport-size Photograph Identity Proof i",
+      "Voter ID Card or Driving License Proof of Age Below Poverty Line (BPL) Card/ Ration Card Caste Certificate (if applicable) Address Proof Bank Passbook/Bank Account Details Any other documents as required"
+    ],
+    "tags": [
+      "Pension",
+      "Below Poverty Line",
+      "Social Welfare",
+      "Senior Citizen",
+      "BPL"
+    ]
+  },
+  {
+    "scheme_id": "cmgcpsi",
+    "name": "Chief Minister's Girl Child Protection Scheme-I",
+    "level": "State",
+    "category": [
+      "Women and Child",
+      "Social welfare & Empowerment"
+    ],
+    "state": "Tamil Nadu",
+    "benefit_amount": 50000,
+    "benefit_period": "one_time",
+    "benefit_text": "FD of ₹50,000 in the girl child's name + annual incentive of ₹1,800 from the 6th year.",
+    "exclusive_group": "girl_child_deposit",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 72000,
+        "explainer": "Parents' annual income must not exceed ₹72,000."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "explainer": "Beneficiary must be a girl child."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "lt",
+        "value": 18,
+        "explainer": "Girl child must be below 18 years of age."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "relation",
+        "op": "in",
+        "value": [
+          "daughter"
+        ],
+        "explainer": "Beneficiary must be the family's daughter."
+      }
+    ],
+    "description": "The 'Chief Minister’s Girl Child Protection Scheme-I' was launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme aims to provide financial assistance to girl children of poor families as well as to promote girl child education, small family norms, increase the child sex ratio, discourage the preference for male child & eradicate female infanticide.",
+    "benefits": "A fixed deposit (FD) of ₹50,000/- in the name of the girl child (A copy of the FD receipt is given to the family). Renewal of FD after five years. An annual incentive of ₹1,800/- from the 6th year of the FD. The amount deposited along with accrued interest is given to the girl child when she attains 18 years of age. NOTE: The matured amount will be given to the girl child only if she appears for the 10th standard public exam.",
+    "application": "Step 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme. Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process. Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents. Step 4: Request a receipt or acknowledgment from the CSC. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). NOTE: The Parents/grandparents should be a domicile of Tamil Nadu for 10 years at the time of applying to this scheme). Deadline for Application: The application should be submitted before the child completes 3 years of age. ﻿",
+    "documents": [
+      "Birth Certificate (issued by Corporation/Taluk Office/ Municipality Office)",
+      "Parent's age proof (Birth Certificate/School Certificate/Government Doctor's Certificate)",
+      "Sterilisation Certificate (issued by Government/Private Hospital)",
+      "Income Certificate (issued by Taluk Office)",
+      "No Male Child Certificate (issued by Extension Officer (SW), Rural Welfare Officer, or Supervisor/ Taluk Office (Chennai District only))",
+      "Residential Certificate (issued by Tahsildar)",
+      "Community Certificate (issued by the Revenue Department)",
+      "﻿ ﻿ ﻿ ﻿"
+    ],
+    "tags": [
+      "Girl",
+      "Financial Assistance",
+      "Family",
+      "Poor",
+      "Child",
+      "Education"
+    ]
+  },
+  {
+    "scheme_id": "sak-deg",
+    "name": "AICTE – Saksham Scholarship for Specially-Abled Student (Degree)",
+    "level": "Central",
+    "category": [
+      "Education & Learning"
+    ],
+    "state": "any",
+    "benefit_amount": 50000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹50,000 per annum for the duration of the degree course.",
+    "exclusive_group": "award_scholarship",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 800000,
+        "explainer": "Family income from all sources must be ≤ ₹8,00,000 per annum."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "student",
+        "op": "eq",
+        "value": true,
+        "explainer": "Beneficiary must be a student."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "study_level",
+        "op": "eq",
+        "value": "degree",
+        "explainer": "Must be admitted to a Degree programme."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "disability_pct",
+        "op": "ge",
+        "value": 40,
+        "explainer": "Specially-abled students must have disability of not less than 40%."
+      }
+    ],
+    "description": "Saksham is a Scholarship Scheme by the Ministry of Education, implemented by AICTE, aimed at providing encouragement and support to specially-abled children to pursue technical education. This is an attempt to give every young student, who is otherwise specially abled, the opportunity to study further and prepare for a successful future through technical education/ knowledge. ₹50,000/- per annum for every year of study i.e. maximum 4 years for the first year admitted students and maximum 3 years for the second year admitted students through lateral entry as lump sum amount towards payment of college fee, purchase of computer, stationeries, books, equipment, software, etc. The candidate should be admitted to the First year of the Degree level course OR the Second year of the Degree level course through lateral entry in any of the AICTE-approved institutions of the respective year. Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year.",
+    "benefits": "₹50,000/- per annum for every year of study i.e. maximum 4 years for the first year admitted students and maximum 3 years for the second year admitted students through lateral entry as lump sum amount towards payment of college fee, purchase of computer, stationeries, books, equipment, software, etc. After selection, the awardee will be paid a scholarship through DBT mode on annual basis. The scholarship will be renewed for the next year of study on receipt of renewal through National Scholarship Portal by submitting a passing certificate/ mark sheet along with letter from the Head of the Inst",
+    "application": "Step 1: Keep ready the soft copies of the required documents. Go to http://www.scholarships.gov.in/. and click “New Registration”. Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click “Continue”.  Step 2: A Registration Form will appear. (The fields marked as * are compulsory) Fill in the details and click “Register”. Your Application ID and password will be displayed. The same will also be sent as an SMS on your registered mobile number. ﻿ Step 3: Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction Click on “Login to Apply”. Enter your Application ID and password. Type the Captcha and click “Login”. On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click “Submit”. You will be directed to the “Appl",
+    "documents": [
+      "Aadhaar Copy of SSC/10th certificate & mark sheet, Copy of HSC/12th certificate (In case of Degree level) & mark sheet",
+      "Copy of ITI certificate (In case of Lateral Entry for Diploma level) & mark sheet",
+      "Copy of Diploma certificate (In case of Lateral Entry for Degree level) & mark sheet",
+      "Category Certificate, if applicable",
+      "Study/ Bonafide Certificate (Appendix-I)",
+      "Annual Family Income Certificate (Appendix-II)",
+      "Promotion Certificate in case of renewal (Appendix-III)"
+    ],
+    "tags": [
+      "Scholarship",
+      "PwD"
+    ]
+  },
+  {
+    "scheme_id": "psgs-deg",
+    "name": "AICTE Pragati Scholarship for Girl Students (Technical Degree)",
+    "level": "Central",
+    "category": [
+      "Education & Learning",
+      "Women and Child"
+    ],
+    "state": "any",
+    "benefit_amount": 50000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹50,000 per annum for girl students in technical degree courses.",
+    "exclusive_group": "award_scholarship",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 800000,
+        "explainer": "Family annual income must be ≤ ₹8,00,000."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "explainer": "Applicant must be a girl student."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "student",
+        "op": "eq",
+        "value": true,
+        "explainer": "Applicant must be a student."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "study_level",
+        "op": "eq",
+        "value": "degree",
+        "explainer": "Must be pursuing a Degree course."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "technical_degree",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must be enrolled in a technical/AICTE-approved course."
+      }
+    ],
+    "description": "A scholarship scheme by AICTE, MoE for Girl Students admitted in 1st or 2nd Year of the technical degree course in an AICTE approved institution. A maximum of two girl children per family are eligible to avail of the benefits. The benefits are provided for a period of maximum of 4 years for first-year admitted students and a maximum of 3 years for second-year admitted students through lateral entry. This scheme is an attempt to give young women the opportunity to further their education and prepare for a successful future by empowering Women through knowledge, skill, and self-confidence.",
+    "benefits": "₹ 50,000/- per annum for every year of study, i.e. maximum of 4 years for first-year admitted students and a maximum of 3 years for second-year admitted students, through lateral entry as a lump sum amount towards payment of college fees, purchase of computer, stationeries, books, equipment, software , etc.",
+    "application": "New Registration : Step 1: Visit the Registration page of the National Scholarships Portal. Step 2: Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click “Continue”. Step 3: A Registration Form will appear. (The fields marked as * are compulsory). Fill in the details and click “Register”. Your Application ID and password will be displayed. The same will also be sent as an SMS to your registered mobile number. Fresh Application : Step 1: Visit the applicant Login page of the National Scholarships Portal Enter your Application ID and password. Step 2: Type the Captcha and click “Login”. Step 3: On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Step 4: Click “Submit”. You will be directed to the “Applicant’s Dashb",
+    "documents": [
+      "Copy of SSC/10th certificate",
+      "Copy of HSC/12th certificate (In case of Degree level)",
+      "Copy of ITI certificate (In case of Lateral Entry for Diploma level)",
+      "Copy of Diploma certificate (In case of Lateral Entry for Degree level)",
+      "Bank Passbook Category Certificate Aaddhar Card Study Certificate (Appendix-I) Annual Family Income Certificate (Appendix-II) Parent’s Declaration (Appendix-III) Bank Mandate Form (Appendix-IV) ﻿ ﻿ Download the Appendix from the link"
+    ],
+    "tags": [
+      "Female",
+      "Scholarship",
+      "Degree",
+      "Student",
+      "Education",
+      "College Fee"
+    ]
+  },
+  {
+    "scheme_id": "as-fadw",
+    "name": "Abhayakiranam – Financial Assistance to Destitute Widows",
+    "level": "State",
+    "category": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "state": "Kerala",
+    "benefit_amount": 12000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹1,000 per month to relatives who shelter a destitute widow.",
+    "exclusive_group": "pension",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 100000,
+        "explainer": "Annual family income must be below ₹1,00,000."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "explainer": "Beneficiary must be a woman."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "marital_status",
+        "op": "eq",
+        "value": "widowed",
+        "explainer": "She must be a widow."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "gt",
+        "value": 50,
+        "explainer": "The widow must be above 50 years of age."
+      }
+    ],
+    "description": "The “Abhayakiranam Scheme-Financial Assistance to Destitute Widows” scheme was launched by the Department of Social Justice, Government of Kerala. This scheme aims to provide a safe and better living environment for destitute and homeless widows. Under this scheme, monthly financial assistance will be given to the close relatives of destitute widows who provide protection and shelter to them. In the initial phase, the State Government has accorded Administrative Sanction for providing financial assistance to 200 persons at ₹1,000/- each for 6 months.",
+    "benefits": "Financial assistance of ₹1000/- per month will be provided to the close relatives of destitute widows who provide protection and shelter to them.",
+    "application": "Step 01: To avail of the benefits of the scheme, the applicant needs to visit the nearest District Social Justice Office and collect the application form. The application form can also be downloaded from the official website of the Social Justice Department, Government of Kerala. Step 02: The applicant needs to fill out the application form completely. Step 03: The duly filled application form along with supporting documents has to be submitted to the concerned District Social Justice Officers.",
+    "documents": [
+      "Passport size photo Attested copy of SSLC certificate/Election ID card/ Aadhaar card for age proof",
+      "Certificate from the concerned Village officer showing that the applicant is a widow and is under the protection of a relative",
+      "Attested copy of Ration card/Income certificate from Village office/BPL certificate Bank account details ﻿"
+    ],
+    "tags": [
+      "Widow",
+      "Destitute",
+      "Financial Assistance",
+      "Homeless",
+      "Relative"
+    ]
+  },
+  {
+    "scheme_id": "dwps",
+    "name": "Destitute Widow Pension Scheme",
+    "level": "State",
+    "category": [
+      "Women and Child",
+      "Social welfare & Empowerment"
+    ],
+    "state": "Tamil Nadu",
+    "benefit_amount": 12000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹1,000 per month + in-kind benefits (saree, rice).",
+    "exclusive_group": "pension",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 100000,
+        "explainer": "Family income / value of assets must not exceed ₹1,00,000."
+      },
+      {
+        "scope": "family",
+        "field": "destitute",
+        "op": "eq",
+        "value": true,
+        "explainer": "Applicant must be destitute."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "explainer": "Beneficiary must be a woman."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "marital_status",
+        "op": "eq",
+        "value": "widowed",
+        "explainer": "She must be a widow."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "ge",
+        "value": 18,
+        "explainer": "The widow must be 18 years or older."
+      }
+    ],
+    "description": "The 'Destitute Widow Pension Scheme' is a state scheme launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu. The scheme aims to provide a pension of ₹1,000/- to the destitute widows who are 18 years and above in age. The widow is also provided with one free saree during Pongal and Deepavali, and free rice in the Anganwadi Centres. Interested applicants should apply via CSC.",
+    "benefits": "Pension: ₹1,000/- per month. Free Clothes during Pongal and Deepavali: One free saree. Free Rice in Anganwadi Centres: 2kg/month to those who are taking nutritious meals. 4kg/month to those who are not taking nutritious meals.",
+    "application": "Step 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme. Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process. Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents. Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
+    "documents": [
+      "Applicant's Photo",
+      "Aadhaar Card",
+      "Proof of Age",
+      "Aadhaar Consent Form",
+      "Smart Ration Card or Any Address Proof",
+      "Husband Death Certificate",
+      "Self–declaration of Applicant",
+      "Widow Certificate",
+      "Any Identity Proof (Voter ID Card, Passport, PAN Card, Driving License)",
+      "Bank Passbook"
+    ],
+    "tags": [
+      "Widow",
+      "Women",
+      "Pension",
+      "Financial Assistance",
+      "Destitute"
+    ]
+  },
+  {
+    "scheme_id": "gsfe",
+    "name": "Garuda Scheme for Funeral Expense",
+    "level": "State",
+    "category": [
+      "Social welfare & Empowerment"
+    ],
+    "state": "Andhra Pradesh",
+    "benefit_amount": 10000,
+    "benefit_period": "one_time",
+    "benefit_text": "₹10,000 funeral assistance for the legal heir of a deceased Brahmin.",
+    "exclusive_group": "funeral",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 75000,
+        "explainer": "Annual family income must not exceed ₹75,000."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "community",
+        "op": "eq",
+        "value": "brahmin",
+        "explainer": "Deceased must belong to the Brahmin community resident in Andhra Pradesh."
+      }
+    ],
+    "description": "Andhra Pradesh Brahmin Welfare Corporation (ABC), a Government of Andhra Pradesh undertaking, is announcing the \"Garuda Scheme for Funeral Expenses\" (GS- FE) for the poor Brahmins in Andhra Pradesh. Under this scheme, financial assistance of ₹10,000/- shall be provided to meet the Funeral Expenses of the deceased Brahmin, through the prescribed process. This scheme covers Andhra Pradesh all 13 districts, to meet the funeral expenses of the deceased Brahmi.",
+    "benefits": "Financial Assistance of ₹10,000/- for funeral expenses.",
+    "application": "Registration and apply Step 01: Applicants have to visit the official website(https://www.andhrabrahmin.ap.gov.in/schemes/schemes.aspx#) and click on \"Scheme\" Step 02: Click on \"Registration\" After that application form will open Step 03: Fill out the required details: Personal Details: Name, Residence address, Aadhaar no, Ration card no, Bank detail etc Upload: Photo, Signature and Certificate Details Documents: Birth Certificate, Residential Certificate, Aadhar Card, Caste Certificate, Bank Passbook etc Finalize and \"Submit\" the application. Step-4: After submission receive the reference number. ﻿ Check Application Status: Step 01: Click on the “Services” link on the menu and select \"Know your status\". Step 02: Enter the Reference or Mobile or Aadhaar Card Number to get the application status. Step 03: Select the \"Financial Year\" and Fetch the details. ﻿ Download the Acknowledgement sl",
+    "documents": [
+      "Passport-size Photograph of the Applicant Aadhar Card of the Applicant Aadhar Card of the Deceased White Ration Card/Income Certificate (issued by Mee Seva/Revenue Department) Caste Certificate (issued from Mee Seva) Residence Certificate (issued from Mee Seva) Birth Certificate (issued from Mee Seva) Income Certificate of the Applicant (issued by Mee Seva/Revenue Department) Passbook of SB Account in Andhra Bank or SBI (in the name of Applicant) Self-declaration (the applicant is the legal heir of the deceased Brahmin) Death Certificate of Deceased Brahmin (issued by any Government)"
+    ],
+    "tags": [
+      "Social Welfare",
+      "Financial Assistance",
+      "Deceased",
+      "Brahmin"
+    ]
+  },
+  {
+    "scheme_id": "bdps",
+    "name": "Bihar Disability Pension Scheme",
+    "level": "State",
+    "category": [
+      "Social welfare & Empowerment"
+    ],
+    "state": "Bihar",
+    "benefit_amount": 4800,
+    "benefit_period": "yearly",
+    "benefit_text": "₹400 per month pension (DBT) to differently-abled persons.",
+    "exclusive_group": "pension",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "resident_years",
+        "op": "ge",
+        "value": 10,
+        "explainer": "Must be a Bihar resident (or residing in Bihar for at least 10 years)."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "disability_pct",
+        "op": "ge",
+        "value": 40,
+        "explainer": "Must hold a disability certificate of at least 40%."
+      }
+    ],
+    "description": "The scheme \"Bihar Disability Pension Scheme\" was initiated by the Social Welfare Department, Government of Bihar, to cover only those persons with disabilities who are not covered under the Indira Gandhi National Disability Pension Scheme. Under this scheme, a monthly pension of ₹400/- is given to persons with a disability of 40% or more, regardless of their income or age group. Objective: The objective of this scheme is to provide social security to the differently-abled section of the poor family of the society by providing them financial assistance.",
+    "benefits": "Under this scheme, eligible differently-abled persons will receive a monthly pension of ₹400/-. Note: The pension amount is being paid to the beneficiaries through the Direct Benefit Transfer (DBT) process. In this process, the pension amount is transferred directly into the beneficiaries' accounts via the Public Financial Management System (PFMS) at the state level, based on the account numbers provided by the beneficiaries.",
+    "application": "Application Process: Step 1: To avail of the benefits of this scheme, eligible applicants should submit their duly filled and signed application in the prescribed format , along with the required attachments, at the Right to Public Service (RTPS) counter located at the block office level. Step 2: Upon submission, applicants will receive an acknowledgment receipt from the RTPS counter, which should be kept for future reference. Step 3: Applicants will be notified of the application's approval or rejection via SMS or email. Step 4: If approved, the Sanction Order can be collected from the same RTPS counter where the application was submitted, upon presenting the acknowledgment receipt and a valid identity card. Complaints & Grievance Redressal: A special portal has been developed for grievance redressal in relation to the Social Security Pension Scheme ( https://www.sspmis.bihar.gov.in/ ) ",
+    "documents": [
+      "Aadhaar card of the applicant Passport-size photograph Identity proof i",
+      "Voter ID Card, Driving License Disability certificate Caste certificate, if applicable Address proof/Residence Certificate Bank Passbook/Bank account details Any other documents as required"
+    ],
+    "tags": [
+      "Pension",
+      "PwD",
+      "Disability"
+    ]
+  },
+  {
+    "scheme_id": "mbwb",
+    "name": "Maternity Benefit (Building & Construction Workers)",
+    "level": "State",
+    "category": [
+      "Social welfare & Empowerment",
+      "Health & Wellness",
+      "Women and Child"
+    ],
+    "state": "West Bengal",
+    "benefit_amount": 6000,
+    "benefit_period": "one_time",
+    "benefit_text": "₹6,000 maternity assistance (max twice in a lifetime).",
+    "exclusive_group": "maternity",
+    "eligibility_rules": [
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "explainer": "Beneficiary must be a woman."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "pregnant",
+        "op": "eq",
+        "value": true,
+        "explainer": "The applicant must be pregnant."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "construction_worker",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must be a registered building & construction worker (or spouse of one)."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "ge",
+        "value": 18,
+        "explainer": "Worker must be 18 years or older."
+      }
+    ],
+    "description": "The \"Maternity Benefit'' scheme by the Building and Other Construction Workers Welfare Board, Labour Department, West Bengal, is a welfare scheme for the registered workers of the board. Under this scheme, the Board shall provide financial benefit during the period of maternity to the female beneficiary or wife in case of a male beneficiary who is registered for 1 year under the Board, subject to a maximum 2 times in his/ her whole life time.",
+    "benefits": "Quantum of Assistance: ₹6,000/-. Note: The benefit shall be allowed for two times in beneficiarie's whole life time. ﻿",
+    "application": "Registration Process as a Building/ Construction Worker: Step 1: To register as a beneficiary under the BOCW Welfare Board, an applicant worker should request Form-27 from the Assistant Labour Commissioners/ Beneficiary Registering Officers and should attach all the mandatory documents (self-attested, if required). Step 2: Application shall be submitted to the Assistant Labour Commissioners/ Beneficiary Registering Officers. Application Process of the Welfare Scheme: Step 1: A registered worker should request Form-XII for the application from the Assistant Labour Commissioners/ Beneficiary Registering Officers and should attach all the mandatory documents (self-attested, if required). Step 2: Application shall be submitted to the Assistant Labour Commissioners/ Beneficiary Registering Officers for this be Helpdesk: Labour Department Department of Labour, Government of West Bengal, 12th F",
+    "documents": [
+      "For Registration as a Building/ Construction Worker: Passport size photographs of the worker (Four copies)",
+      "Attested copy of Proof of Age",
+      "For the Application of the Welfare Scheme: Identity Card of the member",
+      "Medical Certificate",
+      "Any other document if required"
+    ],
+    "tags": [
+      "Labour",
+      "Building Worker",
+      "Construction Worker",
+      "Maternity",
+      "Pregnancy Care",
+      "Women"
+    ]
+  },
+  {
+    "scheme_id": "aicte-ssss",
+    "name": "AICTE Swanath Scholarship Scheme for Students",
+    "level": "Central",
+    "category": [
+      "Education & Learning"
+    ],
+    "state": "any",
+    "benefit_amount": 50000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹50,000 per annum for orphans / COVID-orphans / wards of martyrs.",
+    "exclusive_group": "award_scholarship",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 800000,
+        "explainer": "Family income must be ≤ ₹8,00,000."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "student",
+        "op": "eq",
+        "value": true,
+        "explainer": "Beneficiary must be a student."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "study_level",
+        "op": "in",
+        "value": [
+          "degree",
+          "diploma"
+        ],
+        "explainer": "Must be studying at Degree / Diploma level in an AICTE-approved institution."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "orphan",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must be an orphan (OR COVID-orphan OR ward of a martyr)."
+      }
+    ],
+    "description": "A scholarship scheme by the Student Development Cell (StDC) of All India Council for Technical Education (AICTE) to provide encouragement and support to orphans, wards of parents who died due to Covid-19, wards of Armed Forces, and Central Paramilitary Forces martyred in action (Shaheed) to pursue education. This is an attempt to give every such child, an opportunity to study further and prepare for a successful future through education in AICTE Approved institutions and courses. The family income from all sources should not be more than ₹8,00,000 per annum during the financial year of the application. The candidate should be currently studying in the AICTE Approved institutions and courses at the Degree/Diploma level in regular mode (in 1st /2nd / 3rd /4th year). The candidate should NOT be a Recipient of any of the Central Govt. / State Govt. / AICTE Sponsored scholarships. A maximum of 2000 scholarships (1000 for Degree Students and 1000 for Diploma Students) will be awarded every year to eligible candidates as above. ₹50,000.00 per annum for every year of study i.e. maximum 4 years duration for first-year admitted Degree students and maximum 3 years for Diploma Students as lump",
+    "benefits": "NUMBER OF SCHOLARSHIPS A maximum of 2000 scholarships (1000 for Degree Students and 1000 for Diploma Students) will be awarded every year to eligible candidates as above. ﻿ AMOUNT OF SCHOLARSHIP Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for the first year admitted Degree students and maximum 3 years for Diploma Students as lump sum amount towards payment of college fee, purchase of computer, stationeries, books, equipment, software, etc. ﻿ No other additional grant will be payable in lieu of hostel charges, medical charges, etc. In case the student is curren",
+    "application": "Step 1: Go to Official Website . Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click “Continue”. Step 2:  A Registration Form will appear. (The fields marked as * are compulsory) Fill in the details: State of domicile, Scholarship Category, Name of the Student, Scheme Type, Date of Birth, Gender, Mobile Number, Email ID, Bank Details, and Identification Details. Click “Register”. Your Application ID and password will be displayed. The same will also be sent as an SMS on your registered mobile number. Step 3: Go to the Official Website . Click on “Login to Apply”. Enter your Application ID and password. Type the Captcha and click “Login”. On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click “Submit”. You wi",
+    "documents": [
+      "For Orphan Candidates: (i) Death Certificates of both Father & Mother (if available), OR a certificate issued by Tehsildar / SDM as per enclosed format (Annexure – I)",
+      "(ii) Bonafide Certificate issued by the institution",
+      "(iii) 10+2 / equivalent and 10th Mark sheet for Degree Level (iv) 10th /equivalent Mark sheet for Diploma Level (v) Category Certificate (SC/ST/OBC-NCL) ﻿ B",
+      "For Candidates whose either or both Parents Died due to Covid 19: (i) Death Certificate of Father/Mother or both explicitly mentioning that the death was due to Covid-19",
+      "(ii) If one parent (Father or Mother) is alive, the current year income certificate, explicitly mentioning that income of the family is less than ₹8,00,000 (issued by the Competent Authority)",
+      "(iii) Bonafide Certificate issued by the institution",
+      "(iv) 10+2/equivalent and 10th Mark sheet for Degree Level (v) 10th /equivalent Mark sheet for Diploma Level (vi) Category Certificate (SC/ST/OBC-NCL) ﻿ C",
+      "For Wards of Armed Forces and Central Paramilitary Forces martyred in action (Shaheed) (i) Death Certificate",
+      "(ii) Shaheed Certificate issued by the Armed Forces/ Central Paramilitary Forces (iii) Bonafide Certificate issued by the institution",
+      "(iv) 10+2/equivalent and 10th Mark sheet for Degree Level (v) 10th /equivalent Mark sheet for Diploma Level (vi) Current year income certificate, explicitly mentioning that income of family less than ₹8,00,000, issued by Competent Authority",
+      "(vii) Category Certificate (SC/ST/OBC-NCL)"
+    ],
+    "tags": [
+      "Orphan",
+      "Scholarship"
+    ]
+  },
+  {
+    "scheme_id": "pmsfbcs",
+    "name": "Pre-Matric Scholarship for Backward Class Students",
+    "level": "State",
+    "category": [
+      "Education & Learning"
+    ],
+    "state": "Madhya Pradesh",
+    "benefit_amount": 400,
+    "benefit_period": "yearly",
+    "benefit_text": "Monthly scholarship for classes 6-10 (₹20-40/month, 10 months).",
+    "exclusive_group": "school_scholarship",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "income_taxpayer",
+        "op": "eq",
+        "value": false,
+        "explainer": "Parents/guardians must not be income-tax payers."
+      },
+      {
+        "scope": "family",
+        "field": "land_acres",
+        "op": "le",
+        "value": 10,
+        "explainer": "Parents must own not more than 10 acres of land."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "student",
+        "op": "eq",
+        "value": true,
+        "explainer": "Beneficiary must be a student of classes 6 to 10."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "study_level",
+        "op": "in",
+        "value": [
+          "middle",
+          "higher_secondary",
+          "secondary"
+        ],
+        "explainer": "Must study between classes 6 and 10."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "caste",
+        "op": "eq",
+        "value": "obc",
+        "explainer": "Must belong to the Other Backward Class (OBC) category."
+      }
+    ],
+    "description": "The scheme \"Pre-Matric Scholarship for Backward Class Students\" by the Backward Classes and Minorities Welfare Department, Government of Madhya Pradesh aims to provide financial assistance to backward class students studying at the pre-matriculation level in India. Through this scheme, monthly scholarships of varying amounts are provided to eligible students to help them complete their education. The applications for this scheme are processed through educational institutions. The scheme is implemented across the entire state of Madhya Pradesh.",
+    "benefits": "Classes 6th to 8th Boys: ₹20/- per month Girls: ₹30/- per month Classes 9th to 10th Boys: ₹30/- per month Girls: ₹40/- per month NOTE:  The scheme is individual in nature, covering all of Madhya Pradesh. Scholarships are awarded for 10 months annually and paid in one installment on 30th September.",
+    "application": "Step 1: The interested applicant should visit the Head of the Educational Institution and request the hard copy of the prescribed format of the application form. Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required). Step 3: Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the concerned authority. Step 4: Request a receipt or acknowledgement from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable). NOTE: Ensure that the application is submitted within the prescribed period, if any.",
+    "documents": [
+      "Caste Certificate Income Certificate Land Ownership Proof (Showing Less Than 10 Acres of Land) Bank Account Details Application Form in the Prescribed Format Bonafide Certificate or Proof of Admission in School Proof of Age or Date of Birth (e",
+      ", Birth Certificate or School Records) Academic Records (If Applicable)"
+    ],
+    "tags": [
+      "Financial Assistance",
+      "Backward Class",
+      "Student",
+      "Education",
+      "School"
+    ]
+  },
+  {
+    "scheme_id": "icar-pms-scstc",
+    "name": "ICAR Post-Matric Scholarship for SC/ST Candidates",
+    "level": "Central",
+    "category": [
+      "Education & Learning"
+    ],
+    "state": "any",
+    "benefit_amount": 12000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹1,000/month + ₹750 contingent grant per annum.",
+    "exclusive_group": "award_scholarship",
+    "eligibility_rules": [
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "caste",
+        "op": "in",
+        "value": [
+          "sc",
+          "st"
+        ],
+        "explainer": "Must belong to Scheduled Caste / Scheduled Tribe."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "student",
+        "op": "eq",
+        "value": true,
+        "explainer": "Beneficiary must be a student."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "study_level",
+        "op": "eq",
+        "value": "degree",
+        "explainer": "Must be admitted to an undergraduate degree programme."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "agri_student",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must be studying Agriculture & Allied Sciences at an Agricultural University."
+      }
+    ],
+    "description": "The scheme \"Post-Matric Scholarship to Scheduled Castes / Scheduled Tribes Candidates\" was introduced by the Indian Council of Agricultural Research (ICAR), Department of Agricultural Research and Education (DARE), to enable the students belonging to the weaker sections of society to complete undergraduate courses. The scholarship is provided for studying at the Bachelor's Degree program in various branches of Agriculture viz. B.Sc.(Agri.), B.V.Sc., B.Sc.(Agril. Engg.), B.Sc.(Home Science), B.F.Sc., B.Sc.(Forestry) etc. The value of the scholarship will be ₹ 1,000/- per month along with a contingent grant of ₹ 750/- per annum for the payment of tuition fees, purchase of books, cost of uniforms, etc. The duration of the scholarship will cover the whole of the normal period of the particular degree program to which the candidate is admitted.",
+    "benefits": "VALUE OF SCHOLARSHIP The value of the scholarship will be ₹ 1,000/- per month along with a contingent grant of ₹ 750/- per annum for the payment of tuition fees, purchase of books, cost of uniforms, etc. ﻿ DURATION OF SCHOLARSHIP The duration of the scholarship will cover the whole of the normal period of the particular degree program to which the candidate is admitted.",
+    "application": "Step 01: The scholarship amount as well as the contingent grant will be remitted to the respective institutions by the Council based on the demand received from each institution through the Registrar / Comptroller of the University in the prescribed proforma . ﻿ ﻿ Step 02: The students will be eligible to receive scholarships and contingent grants from the date of joining the course. ﻿ Procedure of Selection: 1.  A tentative distribution of scholarships will first be made to various agricultural universities on the basis of seats reserved by the individual agricultural universities for SC/ST candidates. 2.  The actual number of scholarships allotted to the universities every year would, however, be determined on the basis of actual SC/ST students admitted so as to maintain approximately equal proportion between the number of SC/ST students admitted in each university to the number of sch",
+    "documents": [
+      "Student Photo",
+      "Aadhaar Number",
+      "Caste Certificate",
+      "Details of the Aadhaar Linked Bank Account",
+      "Residential/Domicile Certificate",
+      "Proof of Admission",
+      "Proof of Identity",
+      "Marksheets of the Previous Qualified Examination"
+    ],
+    "tags": [
+      "Post Matric",
+      "Scholarship",
+      "Agriculture",
+      "Scheduled Caste",
+      "Scheduled Tribe"
+    ]
+  },
+  {
+    "scheme_id": "pmssc",
+    "name": "Post Matric Scholarship for Scheduled Caste",
+    "level": "Central",
+    "category": [
+      "Social welfare & Empowerment",
+      "Education & Learning"
+    ],
+    "state": "any",
+    "benefit_amount": 7000,
+    "benefit_period": "yearly",
+    "benefit_text": "Tuition fees + academic allowance (approx. ₹7,000-13,500/yr).",
+    "exclusive_group": "award_scholarship",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 250000,
+        "explainer": "Parent/guardian income from all sources must not exceed ₹2,50,000."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "caste",
+        "op": "eq",
+        "value": "sc",
+        "explainer": "Must belong to a Scheduled Caste."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "student",
+        "op": "eq",
+        "value": true,
+        "explainer": "Beneficiary must be a student."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "study_level",
+        "op": "in",
+        "value": [
+          "higher_secondary",
+          "degree",
+          "diploma"
+        ],
+        "explainer": "Must have passed Matriculation or higher."
+      }
+    ],
+    "description": "Details The objective of the scheme is to provide financial assistance to the Scheduled Caste students studying at post matriculation or post-secondary stage to enable them to complete their education. Scholarships will be paid to the students whose parents/guardians' income from all sources does not exceed Rs. 2,50,000/- (Rupees two lakh, fifty thousand only) per annum. ﻿ Scope These scholarships are available for studies in India only and the awardees are selected by the State Government/Union Territory to which the applicant belongs (i.e. the State/UT in which permanently settled or domiciled, as per the terms of domicile decided by the State) This applies to all the students who are currently beneficiaries of the scheme as well as fresh admissions. Group 1: Degree and Post Graduate level professional courses : All Professional courses in Medicine, Engineering, Technology, Planning, Architecture, Design, Fashion Technology, Agriculture, Veterinary & Allied Sciences, Management, Business Finance /Administration, Computer Science/ Applications (ii) Post Graduate Diploma courses in various branches of Management & Medicine(iii) C.A/N.CWA./CS/I.CF.A. etc. (iv) M.Phil, PhD and Post-D",
+    "benefits": "Components of the Scholarship Compulsory non-refundable fees including tuition fees, as fixed by the Fee Fixation/Rationalization Committee of the State Government. Academic Allowance ﻿ Category of courses Hostellers Day Scholars Group 1: Degree and Post Graduate level professional courses. Rs. 1,35,00/-yearly Rs. 7,000/- yearly Group 2: Other Professional Courses leading to Degree, Diploma, and Certificate. Rs. 9,500/- yearly Rs. 6,500/- yearly Group 3: Graduate and Post Graduate courses not covered under Group I & Group II. Rs. 6,000/- yearly Rs. 3,000/- yearly Group 4: All post-matriculatio",
+    "application": "Application Process Applicants need to visit the official website . Click on the registration link Select the application form. Fill out the required information. Upload the documents/certificate. Submit the application.",
+    "documents": [
+      "List of required documents Aadhar card",
+      "Permanent address/Resident proof",
+      "Previous your academic mark sheet",
+      "Admission proof",
+      "Passport-size photograph (3 copies)",
+      "Bank passbook"
+    ],
+    "tags": [
+      "Post Matric",
+      "Scholarship",
+      "Scheduled Cast",
+      "Punjab"
+    ]
+  },
+  {
+    "scheme_id": "asr",
+    "name": "Aastha Yojana",
+    "level": "State",
+    "category": [
+      "Health & Wellness",
+      "Social welfare & Empowerment"
+    ],
+    "state": "Rajasthan",
+    "benefit_amount": 2000,
+    "benefit_period": "yearly",
+    "benefit_text": "Aastha card membership with BPL-equivalent medical & ration benefits.",
+    "exclusive_group": "none",
+    "eligibility_rules": [
+      {
+        "scope": "family",
+        "field": "annual_income",
+        "op": "le",
+        "value": 120000,
+        "explainer": "Annual family income must not exceed ₹1,20,000."
+      },
+      {
+        "scope": "family_count",
+        "field": "disability_pct",
+        "op": "ge",
+        "value": 2,
+        "threshold": 1,
+        "explainer": "At least two members of the family must be specially-abled."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "disability_pct",
+        "op": "ge",
+        "value": 40,
+        "explainer": "Each beneficiary must have a disability of at least 40%."
+      }
+    ],
+    "description": "The scheme \"Aastha Yojana\" was launched by the Department of Social Justice and Empowerment, Government of Rajasthan. It aims to provide BPL-equivalent benefits to families with multiple specially-abled members. Under this scheme, eligible families receive free medical treatment, ration supplies, and other welfare benefits. To avail of the benefits, a family must possess an Aastha Card, and their annual income should not exceed ₹1.20 lakh.",
+    "benefits": "Aastha cardholder families receive benefits similar to BPL families, including free medical treatment and ration supplies. Note: Aastha cardholders are entitled to benefits from all BPL-related schemes run by different state government departments.",
+    "application": "Step 1: The interested applicant should visit office of the District Social Justice & Empowerment Office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. Step 2: In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attest, if required). Step 3: Submit the duly filled and signed application form along with the documents to the District Social Justice & Empowerment Office. Step 4: Request a receipt or acknowledgment from the District Social Justice & Empowerment Office to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission and a unique identification number (if applicable).",
+    "documents": [
+      "Identity proof Domicile Certificate Disability Certificate Aadhaar Card Any Other Document if Required"
+    ],
+    "tags": [
+      "Persons With Disabilities",
+      "Medical Treatment",
+      "Ration",
+      "Welfare Benefits",
+      "PwD",
+      "Astha Card"
+    ]
+  },
+  {
+    "scheme_id": "cmlby",
+    "name": "Chief Minister Ladli Behna Yojana",
+    "level": "State",
+    "category": [
+      "Social welfare & Empowerment",
+      "Women and Child"
+    ],
+    "state": "Madhya Pradesh",
+    "benefit_amount": 12000,
+    "benefit_period": "yearly",
+    "benefit_text": "₹1,000 per month to eligible women aged 23-60.",
+    "exclusive_group": "none",
+    "eligibility_rules": [
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "explainer": "Beneficiary must be a woman."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "between",
+        "value": [
+          23,
+          60
+        ],
+        "explainer": "Must be aged 23 or more but less than 60."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "marital_status",
+        "op": "in",
+        "value": [
+          "married",
+          "widowed",
+          "divorced",
+          "abandoned"
+        ],
+        "explainer": "Must be married (incl. widows, divorced, abandoned women)."
+      }
+    ],
+    "description": "The Honorable Chief Minister, Government of Madhya Pradesh on January 28, 2023 in entire Madhya Pradesh Announced the implementation of \"Mukhya Mantri Ladli Behna Yojana\". This will be an important step in the direction of women's health and nutrition and economic self-reliance. ﻿ The implementation of the scheme will not only reflect the improvement in the health and nutritional status of women and children dependent on them, but women will be financially more independent than before to spend according to their priority. Women will not only develop self-employment/livelihood resources using locally available resources with the financial assistance received, but will also be able to play an effective role in their decision-making at the family level.",
+    "benefits": "An amount of ₹1,000/- per month will be paid to each eligible woman in her eligibility period in the own Aadhaar linked DBT enabled bank account. If a woman is below the age of 60 years and already receiving less than ₹1,000/- per month under any other Social Security Pension Scheme, then that woman will be reimbursed up to ₹1,000/-.",
+    "application": "Application forms will be available at Gram Panchayat / Ward Office / Camp site Applicants have to fill out the application form with the photograph. Application forms will be submitted in Ladli Bahna Portal/App at camp site/gram panchayat/ward office.",
+    "documents": [
+      "Family and Family members Samgra ID",
+      "Aadhaar Card",
+      "Registered Mobile number on samgra"
+    ],
+    "tags": [
+      "Financial Assistance",
+      "Empowerment",
+      "Social Welfare"
+    ]
+  },
+  {
+    "scheme_id": "msasy",
+    "name": "Mukhyamantri Shramik Aujaar Sahayata Yojana",
+    "level": "State",
+    "category": [
+      "Social welfare & Empowerment"
+    ],
+    "state": "Chhattisgarh",
+    "benefit_amount": 2000,
+    "benefit_period": "one_time",
+    "benefit_text": "Free tool kit for registered construction workers.",
+    "exclusive_group": "none",
+    "eligibility_rules": [
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "construction_worker",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must be a construction worker registered under the BOCW Welfare Board."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "age",
+        "op": "ge",
+        "value": 18,
+        "explainer": "Worker must be at least 18 years old."
+      }
+    ],
+    "description": "The Labor Department of Chhattisgarh launched the \"Mukhyamantri Shramik Aujaar Sahayata Yojana\" on October 1, 2010, through the Building and Construction Workers Welfare Board. Under this scheme, 10,000 tool kits are distributed annually to registered construction workers, including masons, electricians, plumbers, carpenters, porters, painters, and others, who have been registered with the board for a minimum of 90 days.",
+    "benefits": "Tool kits can given free of cost to the registered construction worker.",
+    "application": "Registration of a Construction Worker Under  CBOCWWB Step-1: All the applicant have to visit the official website Chhattisgarh Labour Department. Step-2 : On the home page click on \"Apply\" under \"Chhattisgarh Building and Other Construction Workers Welfare Board\". Step-3 : Enter the following details Select : \"Building and Other Construction Workers Welfare Board\" Select Service : \"Labour Registration\" What do you want to do : \"Registration Application\" Click Proceed. Step-4: Now enter your details :Name Father name. Aadhar card. D.O.B. Age. Step-5: Click on submit only after uploading all the important information and documents given in Part 1, Part 2, Part 3. Step-6: When you click on submit, your registration ID will be sent to your mobile and email. ﻿ Apply Step-1: All the applicant have to visit the official website  Chhattisgarh Labour Department . Step-2: On the home page click on",
+    "documents": [
+      "Bank passbook photocopy",
+      "Self-declaration certificate in the prescribed form issued by the government in respect of the employer",
+      "Worker's Aadhaar Card",
+      "Birth Certificate",
+      "Passport-size photograph",
+      "Residence Poof",
+      "Labour card"
+    ],
+    "tags": [
+      "Financial Assistance",
+      "Construction Workers",
+      "Labour Tools",
+      "Building Worker"
+    ]
+  },
+  {
+    "scheme_id": "pm-svanidhi",
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "level": "Central",
+    "category": [
+      "Business & Entrepreneurship",
+      "Skills & Employment"
+    ],
+    "state": "any",
+    "benefit_amount": 10000,
+    "benefit_period": "one_time",
+    "benefit_text": "Collateral-free working-capital loan up to ₹10,000 at 7% interest.",
+    "exclusive_group": "none",
+    "eligibility_rules": [
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "street_vendor",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must be a street vendor vending in an urban/local-body area."
+      },
+      {
+        "scope": "member_group",
+        "group": 1,
+        "field": "has_vending_cert",
+        "op": "eq",
+        "value": true,
+        "explainer": "Must hold a Certificate of Vending / ID issued by the ULB (or an LoR)."
+      }
+    ],
+    "description": "PM SVANidhi is a central-sector micro-credit scheme launched on 1st June 2020 by the Ministry of Housing and Urban Affairs (MoHUA) to provide handholding support to street vendors. The scheme facilitates a working capital collateral-free loan of ₹10,000, with subsequent loans of ₹20,000 and ₹50,000 with a 7% interest subsidy. The scheme focuses on increasing the digital footprint in India by promoting the use of digital transactions among street vendors. To incentivize the adoption of digital transactions, a cashback of up to ₹100 per month is given to Street Vendors. Aim: The scheme aims to formalize the street vendors and open up new opportunities for this sector to move up the economic ladder. Street vendors represent a very important constituent of the urban informal economy and play a significant role in ensuring availability of the goods and services at affordable rates at the doorstep of the city dwellers. They are known as vendors, hawkers, thelewala, rehriwala, theliphadwala, etc. in different areas/ contexts. The goods supplied by them include vegetables, fruits, ready-to-eat street food, tea, pakodas, bread, eggs, textile, apparel, footwear, artisan products, books/ stat",
+    "benefits": "Financial assistance of up to ₹10,000 is provided to street vendors to help them restart and expand their businesses. The loan is provided at a low-interest rate of 7%, making it easier for street vendors to repay the loan. No collateral is required to avail of the loan, making it more accessible to street vendors. There is no processing fee to apply for the scheme, making it cost-effective for street vendors. The loan amount can be used for any purpose related to the street vending business, such as buying raw materials, paying rent, or purchasing equipment. The scheme provides financial stab",
+    "application": "Step 1: Visit https://pmsvanidhi.mohua.gov.in/ and click on the \"Log In\" button on the homepage. Step 2: Enter Mobile number and captcha. Click request OTP. Step 3: After successful login, select valid \"vendor category\" among the available options. Enter \" Survey Reference Number \" (SRN) which is mandatory. Step 4: On entering these basic details, fill the application form online, upload the relevant documents and submit. Note: For any kind of clarification and access detailed stepwise process, refer User Manual . For any query one can call on the toll free number i.e 1800111979 between 9.30 AM to 6.00 PM on Monday to Saturday except national holidays.",
+    "documents": [
+      "For 1st Loan : For Category A and B vendors : Certificate of Vending Identity Card For Category C and D vendors : Letter of Recommendation KYC documents required in addition to CoV/ID/LoR : Aadhaar Card Voter Identity Card Driving License MNREGA Card PAN Card For Letter of Recommendation : Copy of Account Statement/Passbook Copy of Membership Card/any other proof of membership Any other document to substantiate the claim as a vendor Request letter to ULB For Second Loan Loan Closure Document"
+    ],
+    "tags": [
+      "Street Vendors",
+      "Working Capital Loan",
+      "Enhanced Livelihood",
+      "Digital Empowerment",
+      "Affordable Credit"
+    ]
+  }
+]

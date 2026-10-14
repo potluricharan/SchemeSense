@@ -1,0 +1,13 @@
+/.streamlit/secrets.toml
+serviceAccountKey.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+/data/local_db/
+/data/reference_images/
+/demo_documents/*.pdf
+/demo_documents/*.png
+.DS_Store

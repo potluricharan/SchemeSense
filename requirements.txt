@@ -1,0 +1,24 @@
+streamlit>=1.52
+firebase-admin>=7.0
+ortools>=9.10
+google-api-python-client>=2.100
+google-cloud-firestore>=2.14
+groq>=0.11
+langchain>=1.0
+langchain-groq>=1.1
+langchain-community>=0.3
+langchain-core>=1.0
+langchain-huggingface>=1.0
+sentence-transformers>=3.0
+transformers>=4.44
+torch>=2.2
+pytesseract>=0.3.10
+opencv-python>=4.9
+pymupdf>=1.24
+numpy>=1.26
+pandas>=2.0
+requests>=2.31
+fastapi>=0.110
+uvicorn>=0.29
+plotly>=5.20
+tomli; python_version < "3.11"

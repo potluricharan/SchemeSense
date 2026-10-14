@@ -1,0 +1,12 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+.venv
+venv
+data/local_db
+_streamlit
+.streamlit
+serviceAccountKey.json
+*.log
+.DS_Store
